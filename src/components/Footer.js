@@ -22,7 +22,10 @@ class Footer extends React.Component {
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-envelope-o">
+              <a
+                href="mailto:tobster111@gmail.com"
+                className="icon fa-envelope-o"
+              >
                 <span className="label">Email</span>
               </a>
             </li>
