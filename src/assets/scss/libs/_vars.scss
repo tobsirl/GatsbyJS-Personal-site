@@ -12,7 +12,7 @@
 	$size: (
 		border-radius:		0.35em,
 		element-height:		2.75em,
-		element-margin:		2em
+		element-margin:		2.5em
 	);
 
 // Font.
@@ -48,6 +48,7 @@
 		accent2: (
 			bg:				#1f1815,
 			fg:				rgba(255,255,255,0.5),
+			fg-header:  #b2b2b2,
 			fg-bold:		#ffffff,
 			fg-light:		rgba(255,255,255,0.4),
 			border:			rgba(255,255,255,0.25),

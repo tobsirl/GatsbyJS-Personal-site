@@ -26,6 +26,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-loader": "^2.2.1",
+    "gatsby-plugin-eslint": "^2.0.5",
     "prettier": "^1.14.2"
   },
   "repository": {

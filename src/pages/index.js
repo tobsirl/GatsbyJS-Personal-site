@@ -80,9 +80,8 @@ class HomeIndex extends React.Component {
           <section id="one">
             <header className="major">
               <h2>
-                Ipsum lorem dolor aliquam ante commodo
-                <br />
-                magna sed accumsan arcu neque.
+                Graduate with M.Sc. in Computing (Enterprise System Software)
+                from Waterford Institute of Technology.
               </h2>
             </header>
             <p>
@@ -96,14 +95,14 @@ class HomeIndex extends React.Component {
             <ul className="actions">
               <li>
                 <a href="#" className="button">
-                  Learn More
+                Curriculum Vitae
                 </a>
               </li>
             </ul>
           </section>
 
           <section id="two">
-            <h2>Recent Work</h2>
+            <h2>Personal Projects</h2>
 
             <Gallery
               images={DEFAULT_IMAGES.map(
@@ -125,7 +124,7 @@ class HomeIndex extends React.Component {
             </ul>
           </section>
 
-          <section id="three">
+          {/* <section id="three">
             <h2>Get In Touch</h2>
             <p>
               Accumsan pellentesque commodo blandit enim arcu non at amet id
@@ -195,7 +194,7 @@ class HomeIndex extends React.Component {
                 </ul>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )
