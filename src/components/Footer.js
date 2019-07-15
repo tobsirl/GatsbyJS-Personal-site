@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class Footer extends React.Component {
   render() {
@@ -33,13 +33,15 @@ class Footer extends React.Component {
           <ul className="copyright">
             <li>Paul Tobin &copy;</li>
             <li>
-              Design: <a href="http://html5up.net">HTML5 UP</a>
+              Design:
+              {' '}
+              <a href="http://html5up.net">HTML5 UP</a>
             </li>
           </ul>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Footer
+export default Footer;

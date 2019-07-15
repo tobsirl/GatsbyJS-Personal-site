@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import Footer from './Footer'
-import avatar from '../assets/images/avatar.png'
+import Footer from './Footer';
+import avatar from '../assets/images/avatar.png';
 
 class Header extends React.Component {
   render() {
@@ -13,18 +13,23 @@ class Header extends React.Component {
           </a>
           <h1>
             <strong>
-              Hi, I&apos;m Paul Tobin. <br />
-            </strong>{' '}
+              Hi, I&apos;m Paul Tobin.
+              {' '}
+              <br />
+            </strong>
+            {' '}
             An Enthusiastic Software Engineer.
             <br />
-            Proficient in JavaScript, <br />
+            Proficient in JavaScript,
+            {' '}
+            <br />
             Node.js and React.
           </h1>
         </div>
         <Footer />
       </header>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
