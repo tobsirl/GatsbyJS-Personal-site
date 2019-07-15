@@ -106,7 +106,7 @@ class HomeIndex extends React.Component {
 
             <Gallery
               images={DEFAULT_IMAGES.map(
-                ({ id, source, thumbnail, caption, description }) => ({
+                ({  source, thumbnail, caption, description }) => ({
                   source,
                   thumbnail,
                   caption,

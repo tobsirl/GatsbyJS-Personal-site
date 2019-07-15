@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Starter - Strata by HTML5 UP',
