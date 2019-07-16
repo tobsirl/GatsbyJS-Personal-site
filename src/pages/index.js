@@ -26,6 +26,7 @@ const DEFAULT_IMAGES = [
     thumbnail: thumb01,
     caption: 'Photo 1',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    url: 'https://github.com/tobsirl/rocksmithwebapp',
   },
   {
     id: '2',
@@ -103,20 +104,19 @@ class HomeIndex extends React.Component {
 
           <section id="two">
             <h2>Personal Projects</h2>
-
             <Gallery
               images={DEFAULT_IMAGES.map(
                 ({
-                  source, thumbnail, caption, description,
+                  source, thumbnail, caption, description, url,
                 }) => ({
                   source,
                   thumbnail,
                   caption,
                   description,
+                  url,
                 }),
               )}
             />
-
             <ul className="actions">
               <li>
                 <a href="https://github.com/tobsirl" className="button">
