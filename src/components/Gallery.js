@@ -11,15 +11,15 @@ class Gallery extends Component {
       selectedIndex: 0,
     };
 
-    this.toggleLightbox = this.toggleLightbox.bind(this);
+    // this.toggleLightbox = this.toggleLightbox.bind(this);
   }
 
-  toggleLightbox(selectedIndex) {
-    this.setState(state => ({
-      lightboxIsOpen: !state.lightboxIsOpen,
-      selectedIndex,
-    }));
-  }
+  // toggleLightbox(selectedIndex) {
+  //   this.setState(state => ({
+  //     lightboxIsOpen: !state.lightboxIsOpen,
+  //     selectedIndex,
+  //   }));
+  // }
 
   renderGallery(images) {
     if (!images) return;
@@ -28,12 +28,11 @@ class Gallery extends Component {
       // eslint-disable-next-line react/no-array-index-key
       <article className="6u 12u$(xsmall) work-item" key={i}>
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           className="image fit thumb"
-          href={obj.source}
-          onClick={(e) => {
-            e.preventDefault();
-            this.toggleLightbox(i);
-          }}
+          href={obj.url}
+          onClick={() => this.selectedURL(obj.url)}
         >
           <img src={obj.thumbnail} alt="" />
         </a>
