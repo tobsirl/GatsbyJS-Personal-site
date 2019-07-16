@@ -7,17 +7,20 @@ class Footer extends React.Component {
         <div className="inner">
           <ul className="icons">
             <li>
-              <a href="#" className="icon fa-github">
+              <a href="https://github.com/tobsirl" className="icon fa-github">
                 <span className="label">Github</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-linkedin">
+              <a
+                href="https://www.linkedin.com/in/paul-tobin-irl/"
+                className="icon fa-linkedin"
+              >
                 <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-twitter">
+              <a href="/" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
@@ -31,7 +34,7 @@ class Footer extends React.Component {
             </li>
           </ul>
           <ul className="copyright">
-            <li>Paul Tobin &copy;</li>
+            <li>Paul Tobin 2019 &copy;</li>
             <li>
               Design:
               {' '}

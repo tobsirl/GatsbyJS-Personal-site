@@ -25,6 +25,7 @@ class Gallery extends Component {
     if (!images) return;
 
     const gallery = images.map((obj, i) => (
+      // eslint-disable-next-line react/no-array-index-key
       <article className="6u 12u$(xsmall) work-item" key={i}>
         <a
           className="image fit thumb"
@@ -34,15 +35,24 @@ class Gallery extends Component {
             this.toggleLightbox(i);
           }}
         >
-          <img src={obj.thumbnail} />
+          <img src={obj.thumbnail} alt="" />
         </a>
 
-        <h3>{obj.caption}</h3>
-        <p>{obj.description}</p>
+        <h3>
+          {obj.caption}
+        </h3>
+        <p>
+          {obj.description}
+        </p>
       </article>
     ));
 
-    return <div className="row">{gallery}</div>;
+    // eslint-disable-next-line consistent-return
+    return (
+      <div className="row">
+        {gallery}
+      </div>
+    );
   }
 
   render() {
@@ -52,13 +62,13 @@ class Gallery extends Component {
     return (
       <div>
         {this.renderGallery(images)}
-        <ModalGateway>
+        {/* <ModalGateway>
           {lightboxIsOpen && (
             <Modal onClose={this.toggleLightbox}>
               <Carousel currentIndex={selectedIndex} views={images} />
             </Modal>
           )}
-        </ModalGateway>
+        </ModalGateway> */}
       </div>
     );
   }

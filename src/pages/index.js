@@ -94,8 +94,8 @@ class HomeIndex extends React.Component {
             </p>
             <ul className="actions">
               <li>
-                <a href="#" className="button">
-                Curriculum Vitae
+                <a href="/" className="button">
+                  Curriculum Vitae
                 </a>
               </li>
             </ul>
@@ -119,8 +119,8 @@ class HomeIndex extends React.Component {
 
             <ul className="actions">
               <li>
-                <a href="#" className="button">
-                  Full Portfolio
+                <a href="https://github.com/tobsirl" className="button">
+                  GitHub Portfolio
                 </a>
               </li>
             </ul>
