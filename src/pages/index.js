@@ -15,7 +15,6 @@ import thumb06 from '../assets/images/thumbs/06.jpg';
 const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: full01,
     thumbnail: thumb01,
     caption: 'Rocksmith',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
@@ -23,21 +22,18 @@ const DEFAULT_IMAGES = [
   },
   {
     id: '2',
-    source: full02,
     thumbnail: thumb02,
     caption: 'Photo 2',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
   },
   {
     id: '3',
-    source: full03,
     thumbnail: thumb03,
     caption: 'Photo 3',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
   },
   {
     id: '4',
-    source: full04,
     thumbnail: thumb04,
     caption: 'Photo 4',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',

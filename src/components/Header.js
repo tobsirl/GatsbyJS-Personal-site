@@ -20,10 +20,14 @@ class Header extends React.Component {
             {' '}
             An Enthusiastic Software Engineer.
             <br />
-            Proficient in JavaScript,
+            Proficient in
             {' '}
-            <br />
-            Node.js and React.
+            <strong>
+              JavaScript,
+              {' '}
+              <br />
+              Node.js and React.
+            </strong>
           </h1>
         </div>
         <Footer />
