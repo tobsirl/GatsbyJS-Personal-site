@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  id="header"
+>
+  <div
+    className="inner"
+  >
+    <a
+      className="image avatar"
+      href="/"
+    >
+      <img
+        alt="Personal"
+        src="test-file-stub"
+      />
+    </a>
+    <h1>
+      <strong>
+        Hi, I'm Paul Tobin.
+         
+        <br />
+      </strong>
+       
+      An Enthusiastic Software Engineer.
+      <br />
+      Proficient in
+       
+      <strong>
+        JavaScript,
+         
+        <br />
+        Node.js and React.
+      </strong>
+    </h1>
+  </div>
+  <div
+    id="footer"
+  >
+    <div
+      className="inner"
+    >
+      <ul
+        className="icons"
+      >
+        <li>
+          <a
+            className="icon fa-github"
+            href="https://github.com/tobsirl"
+          >
+            <span
+              className="label"
+            >
+              Github
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            className="icon fa-linkedin"
+            href="https://www.linkedin.com/in/paul-tobin-irl/"
+          >
+            <span
+              className="label"
+            >
+              LinkedIn
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            className="icon fa-twitter"
+            href="/"
+          >
+            <span
+              className="label"
+            >
+              Twitter
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            className="icon fa-envelope-o"
+            href="mailto:tobster111@gmail.com"
+          >
+            <span
+              className="label"
+            >
+              Email
+            </span>
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="copyright"
+      >
+        <li>
+          Paul Tobin 2019 ©
+        </li>
+        <li>
+          Design:
+           
+          <a
+            href="http://html5up.net"
+          >
+            HTML5 UP
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+`;
