@@ -32,26 +32,17 @@ class Gallery extends Component {
           rel="noopener noreferrer"
           className="image fit thumb"
           href={obj.url}
-          onClick={() => this.selectedURL(obj.url)}
         >
           <img src={obj.thumbnail} alt="" />
         </a>
 
-        <h3>
-          {obj.caption}
-        </h3>
-        <p>
-          {obj.description}
-        </p>
+        <h3>{obj.caption}</h3>
+        <p>{obj.description}</p>
       </article>
     ));
 
     // eslint-disable-next-line consistent-return
-    return (
-      <div className="row">
-        {gallery}
-      </div>
-    );
+    return <div className="row">{gallery}</div>;
   }
 
   render() {
