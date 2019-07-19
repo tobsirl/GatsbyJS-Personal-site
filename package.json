@@ -25,7 +25,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "lint": "eslint src/ --fix && eslint test/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
