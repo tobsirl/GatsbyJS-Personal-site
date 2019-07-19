@@ -24,7 +24,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "lint": "eslint src/ --fix && eslint test/ --fix",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint **/*.js --fix",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
