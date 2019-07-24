@@ -17,7 +17,7 @@ const DEFAULT_IMAGES = [
     id: '1',
     thumbnail: thumb01,
     caption: 'Rocksmith',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    description: 'Profile for players | player stats | Store information on platform, instrument and bio ',
     url: 'https://github.com/tobsirl/rocksmithwebapp',
   },
   {
@@ -75,12 +75,13 @@ class HomeIndex extends React.Component {
               </h2>
             </header>
             <p>
-              Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-              nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-              lobortis tortor primis integer massa adipiscing id nisi accumsan
-              pellentesque commodo blandit enim arcu non at amet id arcu magna.
-              Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-              vulputate lorem neque cubilia.
+              I’m self-motivated and enjoy learning new technologies, such as
+              GraphQL and React hooks.
+              {' '}
+              <br />
+              {' '}
+Currently studing for AWS
+              Certified Developer - Associate, will be certified by the end of August.
             </p>
             <ul className="actions">
               <li>
@@ -93,6 +94,7 @@ class HomeIndex extends React.Component {
 
           <section id="two">
             <h2>Personal Projects</h2>
+            <p>Below you&apos;ll find a selection of my GitHub Projects</p>
             <Gallery
               images={DEFAULT_IMAGES.map(
                 ({
