@@ -16,21 +16,26 @@ const DEFAULT_IMAGES = [
   {
     id: '1',
     thumbnail: thumb01,
-    caption: 'Rocksmith',
-    description: 'Profile for players | player stats | Store information on platform, instrument and bio ',
+    caption: 'Rocksmith Web App',
+    description:
+      'Profile for players | player stats | Store information on platform, instrument and bio ',
     url: 'https://github.com/tobsirl/rocksmithwebapp',
   },
   {
     id: '2',
     thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Guitar Store',
+    description:
+      'Responsive web design – developed for desktop, tablet and mobile',
+    url: 'https://github.com/tobsirl/GuitarStore',
   },
   {
     id: '3',
     thumbnail: thumb03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Gatsby Personal Website',
+    description:
+      'GatsbyJS Portfolio Website Using CircleCI and deployed with AWS Amplify',
+    url: 'https://github.com/tobsirl/GatsbyJS-Personal-site',
   },
   {
     id: '4',
@@ -81,7 +86,8 @@ class HomeIndex extends React.Component {
               <br />
               {' '}
 Currently studing for AWS
-              Certified Developer - Associate, will be certified by the end of August.
+              Certified Developer - Associate, will be certified by the end of
+              August.
             </p>
             <ul className="actions">
               <li>
