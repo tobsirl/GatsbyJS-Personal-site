@@ -7,7 +7,7 @@ import Gallery from '../components/Gallery';
 
 import thumb01 from '../assets/images/thumbs/01.png';
 import thumb02 from '../assets/images/thumbs/02.png';
-import thumb03 from '../assets/images/thumbs/03.jpg';
+import thumb03 from '../assets/images/thumbs/03.png';
 import thumb04 from '../assets/images/thumbs/04.jpg';
 import thumb05 from '../assets/images/thumbs/05.jpg';
 import thumb06 from '../assets/images/thumbs/06.jpg';
@@ -71,6 +71,7 @@ class HomeIndex extends React.Component {
           <meta name="description" content={siteDescription} />
         </Helmet>
 
+
         <div id="main">
           <section id="one">
             <header className="major">
@@ -116,7 +117,12 @@ Currently studing for AWS
             />
             <ul className="actions">
               <li>
-                <a href="https://github.com/tobsirl" className="button">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/tobsirl"
+                  className="button"
+                >
                   GitHub Portfolio
                 </a>
               </li>
