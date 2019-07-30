@@ -17,7 +17,7 @@ const DEFAULT_IMAGES = [
     id: '1',
     thumbnail: thumb01,
     caption: 'Rocksmith Web App',
-    description:
+    description1:
       'Profile for players | player stats | Store information on platform, instrument and bio ',
     url: 'https://github.com/tobsirl/rocksmithwebapp',
   },
@@ -25,7 +25,7 @@ const DEFAULT_IMAGES = [
     id: '2',
     thumbnail: thumb02,
     caption: 'Guitar Store',
-    description:
+    description1:
       'Responsive web design – developed for desktop, tablet and mobile',
     url: 'https://github.com/tobsirl/GuitarStore',
   },
@@ -33,7 +33,7 @@ const DEFAULT_IMAGES = [
     id: '3',
     thumbnail: thumb03,
     caption: 'Gatsby Personal Website',
-    description:
+    description1:
       'GatsbyJS Portfolio Website Using CircleCI and deployed with AWS Amplify',
     url: 'https://github.com/tobsirl/GatsbyJS-Personal-site',
   },
@@ -41,21 +41,21 @@ const DEFAULT_IMAGES = [
     id: '4',
     thumbnail: thumb04,
     caption: 'Photo 4',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    description1: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
   },
   // {
   //   id: '5',
   //   source: full05,
   //   thumbnail: thumb05,
   //   caption: 'Photo 5',
-  //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  //   description1: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
   // },
   // {
   //   id: '6',
   //   source: full06,
   //   thumbnail: thumb06,
   //   caption: 'Photo 6',
-  //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  //   description1: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
   // },
 ];
 
@@ -70,7 +70,6 @@ class HomeIndex extends React.Component {
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
         </Helmet>
-
 
         <div id="main">
           <section id="one">
@@ -92,7 +91,12 @@ Currently studing for AWS
             </p>
             <ul className="actions">
               <li>
-                <a href="/" className="button">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://tobsirl-bucket.s3-eu-west-1.amazonaws.com/Paul+Tobin+CV.pdf"
+                  className="button"
+                >
                   Curriculum Vitae
                 </a>
               </li>
@@ -105,12 +109,12 @@ Currently studing for AWS
             <Gallery
               images={DEFAULT_IMAGES.map(
                 ({
-                  source, thumbnail, caption, description, url,
+                  source, thumbnail, caption, description1, url,
                 }) => ({
                   source,
                   thumbnail,
                   caption,
-                  description,
+                  description1,
                   url,
                 }),
               )}

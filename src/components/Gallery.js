@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import Carousel, { Modal, ModalGateway } from 'react-images';
+// import Carousel, { Modal, ModalGateway } from 'react-images';
 
 class Gallery extends Component {
   constructor() {
@@ -38,7 +38,7 @@ class Gallery extends Component {
 
         <h3>{obj.caption}</h3>
         <ul>
-          <li>{obj.description}</li>
+          <li>{obj.description1}</li>
         </ul>
       </article>
     ));
