@@ -930,6 +930,7 @@
 
 		strong, b {
 			color: _palette(fg-bg);
+		//	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 		}
 
 		h2, h3, h4, h5, h6 {
@@ -937,7 +938,7 @@
 		}
 
 		h1 {
-			color: _palette(accent2, fg-header);
+			color: _palette(accent2, fg-bold);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
