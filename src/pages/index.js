@@ -8,7 +8,7 @@ import Gallery from '../components/Gallery';
 import thumb01 from '../assets/images/thumbs/01.png';
 import thumb02 from '../assets/images/thumbs/02.png';
 import thumb03 from '../assets/images/thumbs/03.png';
-import thumb04 from '../assets/images/thumbs/04.jpg';
+import thumb04 from '../assets/images/thumbs/04.png';
 import thumb05 from '../assets/images/thumbs/05.jpg';
 import thumb06 from '../assets/images/thumbs/06.jpg';
 
@@ -40,8 +40,9 @@ const DEFAULT_IMAGES = [
   {
     id: '4',
     thumbnail: thumb04,
-    caption: 'Photo 4',
-    description1: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Warcraft III: Reforged Save Replays',
+    description1: 'Developed a GraphQL API with Node.js / Express.js server using MongoDB Atlas',
+    url: 'https://github.com/tobsirl/Warcraft3-Reforged-Backend',
   },
   // {
   //   id: '5',
