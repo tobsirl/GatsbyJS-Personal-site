@@ -88,7 +88,7 @@ class HomeIndex extends React.Component {
               {' '}
 Currently studing for AWS
               Certified Developer - Associate, will be certified by the end of
-              August.
+              October.
             </p>
             <ul className="actions">
               <li>
