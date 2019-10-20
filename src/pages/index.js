@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
+import GitHubCalendar from 'react-github-calendar';
 import Layout from '../components/layout';
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery';
@@ -41,7 +42,8 @@ const DEFAULT_IMAGES = [
     id: '4',
     thumbnail: thumb04,
     caption: 'Warcraft III: Reforged Save Replays',
-    description1: 'Developed a GraphQL API with Node.js / Express.js server using MongoDB Atlas',
+    description1:
+      'Developed a GraphQL API with Node.js / Express.js server using MongoDB Atlas',
     url: 'https://github.com/tobsirl/Warcraft3-Reforged-Backend',
   },
   // {
@@ -104,6 +106,22 @@ Currently studing for AWS
             </ul>
           </section>
 
+          <h2>GitHub Activity</h2>
+          <GitHubCalendar username="tobsirl" />
+          <ul className="actions">
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/tobsirl"
+                className="button"
+              >
+                  GitHub Portfolio
+              </a>
+            </li>
+          </ul>
+
+
           <section id="two">
             <h2>Personal Projects</h2>
             <p>Below you&apos;ll find a selection of my GitHub Projects</p>
@@ -120,18 +138,6 @@ Currently studing for AWS
                 }),
               )}
             />
-            <ul className="actions">
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/tobsirl"
-                  className="button"
-                >
-                  GitHub Portfolio
-                </a>
-              </li>
-            </ul>
           </section>
 
           {/* <section id="three">
