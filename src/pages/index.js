@@ -41,11 +41,19 @@ const DEFAULT_IMAGES = [
   {
     id: '4',
     thumbnail: thumb04,
-    caption: 'Warcraft III: Reforged Save Replays',
+    caption: 'Emerald Isle Tours ',
     description1:
-      'Developed a GraphQL API with Node.js / Express.js server using MongoDB Atlas',
-    url: 'https://github.com/tobsirl/Warcraft3-Reforged-Backend',
+      'Feature Rich API including filters, sorts, pagination. Developed using Node.js / Express.js, MongoDB Atlas and Mongoose',
+    url: 'https://github.com/tobsirl/Emerald-Isle-Tours',
   },
+  // {
+  //   id: '4',
+  //   thumbnail: thumb04,
+  //   caption: 'Warcraft III: Reforged Save Replays',
+  //   description1:
+  //     'Developed a GraphQL API with Node.js / Express.js server using MongoDB Atlas',
+  //   url: 'https://github.com/tobsirl/Warcraft3-Reforged-Backend',
+  // },
   // {
   //   id: '5',
   //   source: full05,
@@ -88,9 +96,13 @@ class HomeIndex extends React.Component {
               {' '}
               <br />
               {' '}
-Currently studing for AWS
-              Certified Developer - Associate, will be certified by the end of
-              October.
+              Recently Certified as a AWS Certified Cloud Practitioner (Feb 2020).
+              {' '}
+              {' '}
+              <br />
+              {' '}
+Currently studying for AWS
+              Certified Developer - Associate.
             </p>
             <ul className="actions">
               <li>
@@ -116,11 +128,10 @@ Currently studing for AWS
                 href="https://github.com/tobsirl"
                 className="button"
               >
-                  GitHub Portfolio
+                GitHub Portfolio
               </a>
             </li>
           </ul>
-
 
           <section id="two">
             <h2>Personal Projects</h2>
