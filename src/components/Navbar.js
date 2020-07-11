@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Navbar = () => (
-  <header>
+  <header id="navbar">
     <ul>
       <li>
         <Link to="/">
@@ -10,12 +10,12 @@ const Navbar = () => (
         </Link>
       </li>
       <li>
-        <Link to="/blog">
-  Blog
+        <Link to="/blogs">
+  Blogs
         </Link>
       </li>
       <li>
-        <Link to="/blog">
+        <Link to="/contact">
   Contact
         </Link>
       </li>
