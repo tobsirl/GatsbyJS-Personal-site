@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Navbar = () => (
-  <header id="navbar">
+  <header id="navbar" className="scrolled">
     <ul>
       <li>
         <Link to="/">
