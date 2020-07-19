@@ -106,6 +106,8 @@ class HomeIndex extends React.Component {
 Currently studying for AWS
               Certified Developer - Associate.
             </p>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="74e0fb6f-61e7-4952-a0f3-020fe2ffbc05" data-share-badge-host="https://www.youracclaim.com" />
+            <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js" />
             <ul className="actions">
               <li>
                 <a

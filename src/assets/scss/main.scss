@@ -1006,9 +1006,20 @@
 			justify-content: flex-end;
 			list-style: none;
 			margin: 20px 0;
+			
 			// position: fixed;
 		}
+
+		// li {
+		// 	border-bottom: 3px solid green;
+		// }
 	}
+
+/* Card */ 
+#card {
+	width: 300px;
+	background-color: red;
+}
 
 
 
