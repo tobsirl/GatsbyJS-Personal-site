@@ -63,16 +63,7 @@ exports[`Footer renders correctly 1`] = `
       className="copyright"
     >
       <li>
-        Paul Tobin 2019 ©
-      </li>
-      <li>
-        Design:
-         
-        <a
-          href="http://html5up.net"
-        >
-          HTML5 UP
-        </a>
+        Paul Tobin 2020 ©
       </li>
     </ul>
   </div>

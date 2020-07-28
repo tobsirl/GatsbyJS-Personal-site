@@ -6,19 +6,19 @@ const Navbar = () => (
     <ul>
       <li>
         <Link to="/">
-  Home
+          Home
         </Link>
       </li>
       <li>
-        <Link to="/blogs">
-  Blogs
+        <Link to="/blog">
+          Blog
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link to="/contact">
-  Contact
+          Contact
         </Link>
-      </li>
+      </li> */}
     </ul>
   </header>
 );

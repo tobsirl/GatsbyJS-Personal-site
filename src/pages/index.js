@@ -103,7 +103,7 @@ class HomeIndex extends React.Component {
               {' '}
               <br />
               {' '}
-Currently studying for AWS
+              Currently studying for AWS
               Certified Developer - Associate.
             </p>
             <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="74e0fb6f-61e7-4952-a0f3-020fe2ffbc05" data-share-badge-host="https://www.youracclaim.com" />
