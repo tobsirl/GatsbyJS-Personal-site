@@ -5,6 +5,7 @@ import GitHubCalendar from 'react-github-calendar';
 import Layout from '../components/layout';
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery';
+import Navbar from '../components/Navbar';
 
 import thumb01 from '../assets/images/thumbs/01.png';
 import thumb02 from '../assets/images/thumbs/02.png';
@@ -84,6 +85,7 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one">
+            <Navbar />
             <header className="major">
               <h2>
                 Graduate with M.Sc. in Computing (Enterprise System Software)
@@ -101,9 +103,11 @@ class HomeIndex extends React.Component {
               {' '}
               <br />
               {' '}
-Currently studying for AWS
+              Currently studying for AWS
               Certified Developer - Associate.
             </p>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="74e0fb6f-61e7-4952-a0f3-020fe2ffbc05" data-share-badge-host="https://www.youracclaim.com" />
+            <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js" />
             <ul className="actions">
               <li>
                 <a

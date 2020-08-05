@@ -2,7 +2,8 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import '../css/font-awesome.min.css';
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+// @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 
 /*
 	Strata by HTML5 UP
@@ -989,12 +990,47 @@
 		}
 	}
 
+/* Navbar */
+	#navbar {
+		* {
+			// outline: 1px solid red;
+		}
+
+		// border-bottom: 1px solid black;
+		// padding: 0;
+		// margin: 0;
+		text-transform: uppercase;
+		
+		ul {
+			display: flex;
+			justify-content: flex-end;
+			list-style: none;
+			margin: 20px 0;
+			
+			// position: fixed;
+		}
+
+		// li {
+		// 	border-bottom: 3px solid green;
+		// }
+	}
+
+/* Card */ 
+#card {
+	width: 300px;
+	background-color: red;
+}
+
+
+
+
+
 /* Main */
 
 	#main {
 		margin-left: $size-header-width;
 		max-width: 50em + $size-header-pad;
-		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+		padding: ($size-header-pad * .5) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 
 		> section {

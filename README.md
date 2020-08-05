@@ -8,7 +8,7 @@ Gatsby starter based on the Strata site template, designed by [HTML5 UP](https:/
 
 ## CI/CD
 
-Using [CircleCI](https://circleci.com/) for Continuous Integration
+Using [CircleCI](https://circleci.com/) for Continuous Integration / Continuous Delivery
 
 ## Installation
 

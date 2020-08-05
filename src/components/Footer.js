@@ -34,12 +34,12 @@ class Footer extends React.Component {
             </li>
           </ul>
           <ul className="copyright">
-            <li>Paul Tobin 2019 &copy;</li>
-            <li>
+            <li>Paul Tobin 2020 &copy;</li>
+            {/* <li>
               Design:
               {' '}
               <a href="http://html5up.net">HTML5 UP</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
