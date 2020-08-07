@@ -4,6 +4,17 @@ module.exports = {
     title: 'Personal Website',
     author: 'Paul Tobin',
     description: 'GatsbyJS Portfolio Website Using CircleCI and deployed with AWS Amplify',
+    siteUrl: 'https://example.com',
+    social: [
+      {
+        name: 'Twitter',
+        url: 'https://twitter.com/tobsirl',
+      },
+      {
+        name: 'GitHub',
+        url: 'https://github.com/tobsirl',
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',
