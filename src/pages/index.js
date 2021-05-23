@@ -146,6 +146,7 @@ class HomeIndex extends React.Component {
               />
             </a>
           </section>
+          <br />
 
           <h2>GitHub Activity</h2>
           <GitHubCalendar username="tobsirl" />

@@ -34,7 +34,7 @@ class Footer extends React.Component {
             </li>
           </ul>
           <ul className="copyright">
-            <li>Paul Tobin 2020 &copy;</li>
+            <li>Paul Tobin 2021 &copy;</li>
             {/* <li>
               Design:
               {' '}
