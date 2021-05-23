@@ -5,7 +5,7 @@ import GitHubCalendar from 'react-github-calendar';
 import Layout from '../components/layout';
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery';
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 
 import thumb01 from '../assets/images/thumbs/01.png';
 import thumb02 from '../assets/images/thumbs/02.png';
@@ -85,6 +85,7 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one">
+            {/* <Navbar /> */}
             <header className="major">
               <h2>
                 Graduate with M.Sc. in Computing (Enterprise System Software)
@@ -96,17 +97,29 @@ class HomeIndex extends React.Component {
               GraphQL and React hooks.
               {' '}
               <br />
-              {' '}
-              Recently Certified as a AWS Certified Cloud Practitioner (Feb 2020).
-              {' '}
+              Recently Certified as a AWS
+              Certified Cloud Practitioner & AWS Certified Developer – Associate.
               {' '}
               <br />
               {' '}
-              Currently studying for AWS
-              Certified Developer - Associate.
+              Currently learning TypeScript.
+              {' '}
+              <br />
+
             </p>
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="74e0fb6f-61e7-4952-a0f3-020fe2ffbc05" data-share-badge-host="https://www.youracclaim.com" />
-            <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js" />
+
+
+            <div
+              data-iframe-width="150"
+              data-iframe-height="270"
+              data-share-badge-id="74e0fb6f-61e7-4952-a0f3-020fe2ffbc05"
+              data-share-badge-host="https://www.youracclaim.com"
+            />
+            <script
+              type="text/javascript"
+              async
+              src="//cdn.youracclaim.com/assets/utilities/embed.js"
+            />
             <ul className="actions">
               <li>
                 <a
@@ -119,6 +132,19 @@ class HomeIndex extends React.Component {
                 </a>
               </li>
             </ul>
+            <h2>Certifications</h2>
+            <a className="badges" href="https://www.youracclaim.com/badges/f87df97c-8c00-4ba5-b077-5ce30101bff2/public_url">
+              <img
+                src="https://tobsirl-bucket.s3-eu-west-1.amazonaws.com/aws-certified-cloud-practitioner.png"
+                alt="aws-certified-cloud-practitioner"
+              />
+            </a>
+            <a className="badges" href="https://www.youracclaim.com/badges/91819f65-18b1-48c5-a606-39c8dfd45566/public_url">
+              <img
+                src="https://tobsirl-bucket.s3-eu-west-1.amazonaws.com/aws-certified-developer-associate.png"
+                alt="aws-certified-developer-associate"
+              />
+            </a>
           </section>
 
           <h2>GitHub Activity</h2>
