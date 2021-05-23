@@ -85,7 +85,6 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one">
-            <Navbar />
             <header className="major">
               <h2>
                 Graduate with M.Sc. in Computing (Enterprise System Software)
