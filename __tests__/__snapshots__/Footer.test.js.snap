@@ -63,7 +63,7 @@ exports[`Footer renders correctly 1`] = `
       className="copyright"
     >
       <li>
-        Paul Tobin 2020 ©
+        Paul Tobin 2021 ©
       </li>
     </ul>
   </div>
